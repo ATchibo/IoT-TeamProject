@@ -1,0 +1,20 @@
+<WateringHistoryView>:
+    name: 'watering_history'
+    padding: dp(10)
+
+    MDRecycleView:
+        id: rv
+        viewclass: 'MDLabel'
+        RecycleBoxLayout:
+            default_size: None, dp(56)
+            default_size_hint: 1, None
+            size_hint_y: None
+            height: self.minimum_height
+            orientation: 'vertical'
+
+    MDFloatingActionButton:
+        icon: "refresh"
+        icon_color: 1, 1, 1, 1
+        type: "small"
+        pos_hint: {"right": 1}
+        on_release: root.refresh_data()

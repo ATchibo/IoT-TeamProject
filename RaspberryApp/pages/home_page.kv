@@ -1,0 +1,27 @@
+<HomePage>:
+    name: "home"
+
+    MDBottomNavigation:
+        selected_color_background: "white"
+        text_color_active: "green"
+
+        MDBottomNavigationItem:
+            name: 'screen 1'
+            text: 'Humidity graph'
+            icon: 'water-percent'
+
+            GraphView:
+
+        MDBottomNavigationItem:
+            name: 'screen 2'
+            text: 'Event History'
+            icon: 'history'
+
+            WateringHistoryView:
+
+        MDBottomNavigationItem:
+            name: 'screen 3'
+            text: 'Watering Options'
+            icon: 'water-pump'
+
+            WateringOptionsView:

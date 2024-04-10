@@ -1,0 +1,89 @@
+<resources>
+<!--    General-->
+    <string name="app_name">PlantBuddy</string>
+    <string name="ok">OK</string>
+    <string name="no">NO</string>
+    <string name="cancel">Cancel</string>
+    <string name="back_button_text">Back</string>
+    <string name="default_web_client_id">753395543788-to1sjo1otqb13v8uju38kkpjih4nvsdm.apps.googleusercontent.com</string>
+
+<!--    Login screen-->
+    <string name="login_title">Welcome to PlantBuddy</string>
+    <string name="login">Login with Gmail</string>
+    <string name="password">Password</string>
+    <string name="error_title">Error</string>
+    <string name="error_message">Invalid credentials. Please try again.</string>
+
+<!--    Settings screen-->
+    <string name="settings_title">Settings</string>
+
+<!--    Main screen-->
+    <string name="main_screen_title">%s\'s irrigation system</string>
+    <string name="main_screen_subtitle">Devices:</string>
+
+    <string name="raspberry_status">Status: %s</string>
+
+<!-- Add device page -->
+    <string name="add_device_title">Link Raspberry Pi to your account</string>
+    <string name="add_device_instructions_0">Instructions:</string>
+    <string name="add_device_instructions_1">Connect your Raspberry Pi to a network</string>
+    <string name="add_device_instructions_2">Display the QR Code</string>
+    <string name="add_device_instructions_3">Scan the code to link the device</string>
+    <string name="camera_alert_title">Camera required</string>
+    <string name="camera_alert_body">Please grant the app permission to use the camera</string>
+    <string name="add_device_loading">Linking device</string>
+    <string name="loading">Loading…</string>
+    <string name="no_devices_found">No devices found</string>
+
+<!--    Device screen-->
+    <string name="unlink_device">Unpair device</string>
+    <string name="moisture_history">Moisture history</string>
+    <string name="watering_options">Watering options</string>
+    <string name="update">Update</string>
+    <string name="change_period">Change period:</string>
+    <string name="no_data">No data</string>
+    <string name="view_logs">View logs</string>
+    <string name="device_settings">Device settings</string>
+    <string name="watering_options_description">Here you can change the preset of your watering program or control the watering manually.</string>
+    <string name="manual_watering">Manual controls</string>
+    <string name="watering_presets">Watering presets</string>
+    <string name="add_watering_preset">Create preset</string>
+    <string name="stop_watering">Stop watering</string>
+    <string name="start_watering">Start watering</string>
+    <string name="last_update">Last update: %s</string>
+    <string name="current_watering_stats">Water amount: %sL\nTime running: %ss</string>
+
+<!-- Watering screen -->
+    <string name="no_watering_program">No watering program selected</string>
+    <string name="enable_watering_presets">Use presets</string>
+    <string name="active_watering_preset">Active:</string>
+    <string name="set_program">Set program</string>
+    <string name="watering_program_description"><![CDATA[Frequency: once every %s days\nTime of day: %s\nWater quantity: %s liters]]></string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="frequency_days">Watering frequency (in days)</string>
+    <string name="quantity_l">Water quantity (in liters)</string>
+    <string name="min_moisture">Minimum moisture</string>
+    <string name="max_moisture">Maximum moisture</string>
+    <string name="time_of_day_min">Time when the watering first occurs</string>
+    <string name="check_moisture">Check moisture</string>
+    <string name="moisture_level">Current soil moisture: %s</string>
+    <string name="delete">Delete</string>
+    <string name="logs_page">Event Logs</string>
+    <string name="logs_page_description">Here you can see logs regarding the activity of your device</string>
+    <string name="raspberry_settings">Raspberry Settings</string>
+    <string name="raspberry_settings_description">Feel free to customize the details of your device</string>
+    <string name="raspberry_name">Name</string>
+    <string name="raspberry_description">Description</string>
+    <string name="raspberry_location">Location</string>
+    <string name="notification_settings">Set the notifications you want to receive</string>
+    <string name="check_water_volume">Check water volume</string>
+    <string name="current_water_volume">Volume: %s</string>
+    <string name="refresh">Refresh</string>
+    <string name="unlink_dialog_title">Unlink device</string>
+    <string name="unlink_dialog_content">Are you sure you want to unlink this device?</string>
+    <string name="go_to_home">Terminate and go home</string>
+    <string name="clear_logs">Clear logs</string>
+    <string name="no_logs">No logs</string>
+
+</resources>
