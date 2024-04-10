@@ -1,5 +1,42 @@
 # IoT Team Project
 
+#Description
+
+The project is an automated house plant watering system. 
+
+With the help of the companion app, the plant owner has at their disposal every detail about the plant it's monitoring.
+
+The app provides quick access to the water level in the tank, the moisture level of the plant soil and the history of the plant watering.
+
+#Components
+
+Raspberry Pi 4B with a power supply (https://www.optimusdigital.ro/ro/placi-raspberry-pi/8617-raspberry-pi-4-model-b-4gb-765756931182.html)
+
+32GB or more MicroSD card
+
+7 inch DSI capacitive touchscreen LCD (https://www.waveshare.com/wiki/7inch_DSI_LCD) - comes with all necessary cables included
+
+Breadboard (https://cleste.ro/breadboard-830-puncte-mb-102-mb102.html)
+
+A MCP3008 Analog to Digital converter (https://ro.farnell.com/microchip/mcp3008-i-p/10bit-adc-2-7v-8ch-spi-16dip/dp/1627174)
+
+a moisture sensor (https://www.optimusdigital.ro/ro/senzori-senzori-de-umiditate/12803-senzor-de-umiditate-a-solului.html?search_query=senzor+umiditate&results=87)
+
+a Mosfet relay (https://www.sigmanortec.ro/Modul-IRF520-p141724639)
+
+a 9V battery with terminal connector (https://cleste.ro/suport-baterie-de-9v-cu-capac.html, https://cleste.ro/baterie-alcalina-varta-industrial-9v.html)
+
+a water pump (https://www.sigmanortec.ro/Pompa-Apa-Aer-cu-diafragma-6-12V-R385-p190556176)
+two small hoses ()
+
+7 DuPont male-male wires (https://cleste.ro/10-x-fire-dupont-tata-tata-10cm.html)
+
+11 DuPont male-female wires (https://cleste.ro/10xfire-dupont-mama-tata-20cm.html)
+
+2 DuPont female-female wire (https://cleste.ro/10-x-fire-dupont-mama-mama-10cm.html)
+
+An ultrasonic sensor HC-SR04 (https://cleste.ro/senzor-ultrasonic-hc-sr04.html)
+
 
  
 ![schema_2_bb](https://github.com/ATchibo/IoT-TeamProject/assets/44547421/6f6ec03d-491c-4ed3-b87b-5f2fc80b30e3)
