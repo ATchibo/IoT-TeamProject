@@ -1,6 +1,6 @@
 # IoT Team Project
 
-#Description
+# Description
 
 The project is an automated house plant watering system. 
 
@@ -8,7 +8,7 @@ With the help of the companion app, the plant owner has at their disposal every 
 
 The app provides quick access to the water level in the tank, the moisture level of the plant soil and the history of the plant watering.
 
-#Components
+# Components
 
 Raspberry Pi 4B with a power supply (https://www.optimusdigital.ro/ro/placi-raspberry-pi/8617-raspberry-pi-4-model-b-4gb-765756931182.html)
 
